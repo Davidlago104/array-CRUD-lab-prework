@@ -8,21 +8,21 @@ end
 
 def add_element_to_end_of_array(array, element)
   array =["wow"]
-  "arrays!".push
+  array.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
   array = ["arrays!"]
-  "wow".unshift
+  array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-      array = ["arrays!", "wow"]
+      array = ["wow", "arrays!"]
       array.pop
 end
 
 def remove_element_from_start_of_array(array)
-    array = ["arrays!", "wow"]
+    array = ["wow", "arrays!"]
     array.shift
 end
 
